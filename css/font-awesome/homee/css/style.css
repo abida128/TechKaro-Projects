@@ -1,0 +1,99 @@
+.body{
+	
+}
+#home {
+	background-image: url("../images/021.jpg");
+	padding: 10% 0 ;
+	background-repeat: no-repeat;
+
+	margin: 15%; 
+}
+#home .home data{
+	text-align: center;
+
+}
+.heading{
+	background-color: crimson;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
+#home .homedata header h1{
+	 text-transform: uppercase; text-align:center;text-decoration: underline;
+	 margin: 20%; }
+
+#documents .img-box img{
+	width: 100%
+
+}
+#documents .img-box{
+	width: 30%;
+	display: inline-block;
+}
+
+#skills .skills-1 img{
+	width: 100%;
+	}
+#skills .skills-1{
+	width: 30%;
+	display: inline-block;
+	}
+	.step{
+		font-size: 50px;
+		background-color: crimson;
+	}
+	#web .web-section{
+	
+}
+#web .web-section img{
+	width: 100%;
+}
+#web .web-section img{
+	width: 30%;
+	display: inline-block;
+	}
+ .section{
+	background-color: crimson;
+	font-size: 50px;
+}
+.drop{
+	background-image: url("../images/021.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+	/*background-color: silver;*/
+	width:40%;
+	margin: 40px;
+height: 400px;
+	 display: inline-block;
+}
+.section-5{
+	color: crimson;
+}
+
+#works .works-1 {
+	width:20%;
+	display: inline-block;
+}
+#works .works-1 img{
+	width:80%;
+}
+#box-con .box1{
+	width: 40%;
+	display: inline-block;
+}
+#box-con .box1 div{
+	height: 200px;
+	background-image:url("../images/019.jpg"); 
+	margin: 20px;
+}
+
+#box-con .box2{
+	width: 50%;
+	display: inline-block;
+}#box-con .box2 div{
+	height: 450px;background-repeat: no-repeat;
+	background-image: url("../images/019.jpg");
+}
+.section-7 {
+	background-color: crimson;
+}

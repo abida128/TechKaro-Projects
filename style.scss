@@ -1,0 +1,161 @@
+.row{
+    background-color: maroon;
+  
+    
+}
+.main-div{
+    display: flex;
+}
+header{
+    padding-left: 5%;
+    margin: 2%;
+    font-size: bolder;
+    font-family: sans-serif;
+    line-height: 5vh;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 75%;
+    margin: 20px;
+    line-height: 15vh;
+
+    li{
+        margin-left: 3vw;
+        font-size: large;
+        font-family: sans-serif;
+        
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+
+    &:hover{
+            background-color: rgb(131, 95, 60);
+            color: gray;
+            border: 1px solid black;
+            padding:5px;
+            border-radius: 5px;
+        
+        }
+        
+    }
+    
+}
+
+.second-div{
+    display: flex;
+    background: maroon;
+    margin: 5px;
+    
+}
+.about{
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 30%;
+    height: 50%;
+    display: flex;
+    color: black;
+  
+
+    p{
+        font-size: x-large;
+        font-family: sans-serif;
+    
+    
+    }
+    
+    h5{
+        font-size: x-large;
+        font-family: serif;
+        top: 20px;
+    }
+    img{
+        height:500px;
+        width:40%;
+        float: left;
+        padding-right: 10px;
+        border: 1px solid black;
+    }
+    
+}
+
+
+
+.skills{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: large;
+    font-family: sans-serif;
+    text-align: left;
+    color: black;
+    padding: 25px;
+    
+
+    a{
+        text-decoration: none;
+    
+    &:hover{
+            background-color: lightskyblue;
+            border: 5px solid black;
+            padding: 2px;
+           
+        }
+        
+    }
+}
+.form-group{
+    float: none;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 1px;
+    align-items: center ;
+    margin-left: 5px;
+
+    .input-group{
+        align-items: flex-end;
+        margin: 5px;
+    }
+
+
+}
+
+.footer{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: bolder;
+    float: left;
+  
+   
+    
+    .connect{
+        font-family: 'Itim', cursive;
+        padding: 40px;
+        margin: 50px;
+        font-size: bolder;
+        text-decoration:none;
+
+
+        ul{
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+            margin-left: 20px;
+            
+        }
+      
+    
+        ul &:hover{
+            background-color: rgb(131, 95, 60);
+            color:black;
+            margin: 10px;
+            padding-left: 15px;
+            margin-left: 20px;
+         
+        
+    }
+}
+}
